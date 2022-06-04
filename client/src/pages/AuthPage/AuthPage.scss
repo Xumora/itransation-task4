@@ -1,0 +1,28 @@
+@import '../../assets/configStyles/configStyles.scss';
+.authPage{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+
+    .authForm{
+        margin-top: 150px;
+        h3{
+            @include font(normal, 50px, 72px,white)
+        }
+        form{
+            width: 400px;
+            @media only screen and (max-width: 960px) {
+                width: 300px;
+            }
+            .spinner-border{
+                width: 30px;
+                height: 30px;
+            }
+            .form-control{
+                &:focus{
+                    border-color: #ced4da !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+#No modules
+node_modules
+
+#production
+client/build
+

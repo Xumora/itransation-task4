@@ -1,0 +1,26 @@
+@mixin font($weight, $size, $height, $color) {
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+ }
+ 
+ @mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ @mixin space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ @mixin start {
+    display: flex;
+    align-items: center;
+ }
+
+ 

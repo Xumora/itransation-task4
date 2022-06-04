@@ -1,0 +1,146 @@
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets/fonts/SFProText-Bold.eot");
+  src: url("./assets/fonts/SFProText-Bold.eot?#iefix") format("embedded-opentype"),
+      url("./assets/fonts/SFProText-Bold.woff") format("woff"),
+      url("./assets/fonts/SFProText-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Heavy.eot");
+  src: url("./assets/fonts/SFProDisplay-Heavy.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Heavy.woff") format("woff"), 
+     url("./assets/fonts/SFProDisplay-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Black.eot");
+  src: url("./assets/fonts/SFProDisplay-Black.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Black.woff") format("woff"), 
+     url("./assets/fonts/SFProDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Bold.eot");
+  src: url("./assets/fonts/SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Bold.woff") format("woff"), 
+     url("./assets/fonts/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Semibold.eot");
+  src: url("./assets/fonts/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Semibold.woff") format("woff"),
+     url("./assets/fonts/SFProDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Medium.eot");
+  src: url("./assets/fonts/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Medium.woff") format("woff"),
+     url("./assets/fonts/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Regular.eot");
+  src: url("./assets/fonts/SFProDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Regular.woff") format("woff"),
+     url("./assets/fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Light.eot");
+  src: url("./assets/fonts/SFProDisplay-Light.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Light.woff") format("woff"), 
+     url("./assets/fonts/SFProDisplay-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Ultralight.eot");
+  src: url("./assets/fonts/SFProDisplay-Ultralight.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Ultralight.woff") format("woff"),
+     url("./assets/fonts/SFProDisplay-Ultralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SFProDisplay-Thin.eot");
+  src: url("./assets/fonts/SFProDisplay-Thin.eot?#iefix") format("embedded-opentype"),
+     url("./assets/fonts/SFProDisplay-Thin.woff") format("woff"), 
+     url("./assets/fonts/SFProDisplay-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+#root{
+  position: absolute;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "SF Pro Display", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:disabled{
+  cursor: not-allowed !important;
+  pointer-events: all !important;
+}

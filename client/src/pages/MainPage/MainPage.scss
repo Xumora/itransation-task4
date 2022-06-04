@@ -1,0 +1,21 @@
+@import '../../assets/configStyles/configStyles.scss';
+.mainPage{
+    min-width: 100vw;
+    min-height: 100vh;
+    &-inner{
+        &-top{
+            &-toolbar{
+                .btn-lock{
+                    &:hover{
+                        svg{
+                            path:nth-child(2){
+                                transition: all ease 0.5s;
+                                fill: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

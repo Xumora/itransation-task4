@@ -1,0 +1,37 @@
+.usersTable{
+    @media only screen and (max-width: 960px) {
+        overflow-y: auto !important;
+    }
+    &-row{
+        background-color: #f6f7f8;
+        @media only screen and (max-width: 960px) {
+            min-width: 1000px;
+        }
+        &-col{
+            &:first-child{
+                width: 5%;
+                .form-check-input{
+                    cursor: pointer;
+                }
+            }
+            &:nth-child(2){
+                width: 3%;
+            }
+            &:nth-child(3){
+                width: 20%;
+            }
+            &:nth-child(4){
+                width: 25%;
+            }
+            &:nth-child(5),&:nth-child(6){
+                width: 18%;
+            }
+            &:last-child{
+                .badge{
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+}
